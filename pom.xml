@@ -16,7 +16,7 @@
     <dependencies>
         <dependency>
             <groupId>org.rapidoid</groupId>
-            <artifactId>rapidoid-quick</artifactId>
+            <artifactId>rapidoid-http-fast</artifactId>
             <version>5.5.5</version>
         </dependency>
     </dependencies>
@@ -28,7 +28,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.example.Main</mainClass>
+                            <mainClass>org.example.CustomHttpServer</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
